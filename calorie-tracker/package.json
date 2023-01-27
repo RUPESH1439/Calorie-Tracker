@@ -1,0 +1,41 @@
+{
+  "name": "calorie-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@material-ui/styles": "^4.11.5",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.7",
+    "@mui/x-data-grid": "^5.17.5",
+    "@mui/x-date-pickers": "^5.0.3",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "18.8.0",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.1.2",
+    "typescript": "4.8.4"
+  }
+}

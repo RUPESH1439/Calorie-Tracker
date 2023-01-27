@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  calorie: 1.5
+  date_added: 2022-10-03 16:22:17
+
+two:
+  name: MyString
+  calorie: 1.5
+  date_added: 2022-10-03 16:22:17
